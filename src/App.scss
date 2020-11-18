@@ -1,0 +1,51 @@
+.mainGrid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 37.5% 4px 62.5%;
+}
+
+.weatherGrid {
+  grid-column: 1;
+  display:grid;
+  grid-template-rows: 30% 10% 60%;
+  place-items: center;
+}
+
+.weatherText {
+  grid-row: 1;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.temperature {
+  font-size: 8vw;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.rain {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.weatherImageContainer {
+  grid-row: 3;
+  place-self: stretch;
+  margin: 2vw;
+}
+
+.weatherImage {
+  width:90%;
+  max-height:90%;
+  object-fit: scale-down;
+}
+
+.separator {
+  grid-column: 2;
+  background-color: gray;
+  place-self: stretch;
+}
+
+.clockGrid {
+  grid-column: 3;
+  place-self: center;
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/weather-station/static/css/main.517bb2c6.chunk.css",
+    "main.js": "/weather-station/static/js/main.3fe35000.chunk.js",
+    "main.js.map": "/weather-station/static/js/main.3fe35000.chunk.js.map",
+    "runtime-main.js": "/weather-station/static/js/runtime-main.755e2667.js",
+    "runtime-main.js.map": "/weather-station/static/js/runtime-main.755e2667.js.map",
+    "static/js/2.33ccfd1b.chunk.js": "/weather-station/static/js/2.33ccfd1b.chunk.js",
+    "static/js/2.33ccfd1b.chunk.js.map": "/weather-station/static/js/2.33ccfd1b.chunk.js.map",
+    "index.html": "/weather-station/index.html",
+    "static/css/main.517bb2c6.chunk.css.map": "/weather-station/static/css/main.517bb2c6.chunk.css.map",
+    "static/js/2.33ccfd1b.chunk.js.LICENSE.txt": "/weather-station/static/js/2.33ccfd1b.chunk.js.LICENSE.txt",
+    "static/media/clock.027e092c.png": "/weather-station/static/media/clock.027e092c.png",
+    "static/media/rain.f1e2c69d.jpg": "/weather-station/static/media/rain.f1e2c69d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.755e2667.js",
+    "static/js/2.33ccfd1b.chunk.js",
+    "static/css/main.517bb2c6.chunk.css",
+    "static/js/main.3fe35000.chunk.js"
+  ]
+}

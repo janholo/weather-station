@@ -1,56 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import clock from './clock.png';
+import rain from './rain.jpg';
 import { Counter } from './features/counter/Counter';
-import './App.css';
+import './App.scss';
+import Clock from './clock/Clock';
 
 function App() {
+
+  let l = new Date();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div className="mainGrid">
+      <div className="weatherGrid">
+        <div className="weatherText">
+          <div className="temperature">23°</div>
+          <div className="rain">30% Regenrisiko</div>
+        </div>
+        <div className="weatherImageContainer">
+          <img src={rain} className="weatherImage" ></img>
+        </div>
+      </div>
+      <div className="separator"></div>
+      <div className="clockGrid">
+        <img src={clock}></img>
+      </div>
+      {/* <Clock value={l} size={200} /> */}
     </div>
   );
 }
